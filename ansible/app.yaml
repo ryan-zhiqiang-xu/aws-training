@@ -1,0 +1,8 @@
+---
+- hosts: tag_role_app
+  become: true
+  roles:
+#    - { role: locale, tags: locale }
+#    - { role: system, tags: system }
+    - { role: apache, tags: apache }
+#    - { role: php, tags: php }

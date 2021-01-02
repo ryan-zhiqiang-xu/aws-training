@@ -1,0 +1,3 @@
+ansible_ssh_common_args: -o ControlPersist=15m -F hosts/dev/group_vars/ssh_config_dev -q
+#role: "{{ ec2_tag_role }}"
+#hostname: "{{ ec2_tag_Name }}"
