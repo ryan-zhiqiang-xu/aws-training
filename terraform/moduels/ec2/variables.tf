@@ -24,3 +24,8 @@ variable "tag_name" {
   description = "The name tag for EC2 Instance"
   type        = string
 }
+
+variable "key_name" {
+  description = "key for  EC2 Instance"
+  type        =  string
+}
