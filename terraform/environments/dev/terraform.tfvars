@@ -2,10 +2,10 @@
 # NetWork Info
 #-----------------------------------------
 network_info = {
-  "vpc"             = "vpc-03eb61119ce42d31c"
-  "subnet_app_a" = "subnet-05d6c4d45f33a8254"
+  "vpc"             = "vpc-0a2a70900b9ac1bc5"
+  "subnet_app_a" = "subnet-0a2e1c17efbc26640"
 }
 
 ami = "ami-01748a72bed07727c"
 
-bastion_sg_id = "sg-0d7aae1f051e3e061"
+bastion_sg_id = "sg-0f3e20a55e85e1148"

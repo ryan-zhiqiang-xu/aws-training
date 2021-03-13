@@ -1,5 +1,5 @@
 Host 10.1.* 
   User ec2-user
   IdentityFile ~/.ssh/zhiqiang-xu-otc-key.pem
-  ProxyCommand ssh  -i  ~/.ssh/zhiqiang-xu-otc-key.pem -W %h:%p ec2-user@52.192.22.216
+  ProxyCommand ssh  -i  ~/.ssh/zhiqiang-xu-otc-key.pem -W %h:%p ec2-user@54.199.246.178
 

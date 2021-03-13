@@ -27,7 +27,7 @@ resource "aws_security_group" "terraform_test_sg" {
   }
 
   tags = {
-    Name      = "allow_from_home"
+    Name      = "terraform_test_sg"
     Terraform = true
   }
 }
